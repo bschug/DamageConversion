@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DamageConversion", "DamageConversion\DamageConversion.csproj", "{53A34781-7447-4727-B019-EE855B01F505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiTests", "WikiTests\WikiTests.csproj", "{71C10367-2CAB-4731-A6F8-288D4ADC4DFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53A34781-7447-4727-B019-EE855B01F505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A34781-7447-4727-B019-EE855B01F505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A34781-7447-4727-B019-EE855B01F505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A34781-7447-4727-B019-EE855B01F505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71C10367-2CAB-4731-A6F8-288D4ADC4DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C10367-2CAB-4731-A6F8-288D4ADC4DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C10367-2CAB-4731-A6F8-288D4ADC4DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C10367-2CAB-4731-A6F8-288D4ADC4DFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
