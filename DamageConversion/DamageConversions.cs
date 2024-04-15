@@ -10,4 +10,10 @@ public record DamageConversions(
     float LightningToChaos = 0,
     float ColdToFire = 0,
     float ColdToChaos = 0,
-    float FireToChaos = 0);
+    float FireToChaos = 0)
+{
+    public float TotalPhysicalDamageConverted =>
+        PhysicalToLightning + PhysicalToCold + PhysicalToFire + PhysicalToChaos;
+    public float TotalLightningDamageConverted => LightningToCold + LightningToFire + LightningToChaos;
+    public float TotalColdDamageConverted => ColdToFire + ColdToChaos;
+}
